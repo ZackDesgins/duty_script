@@ -1,0 +1,5 @@
+RegisterNetEvent("dutySystem:notifyDutyStatus", function(message)
+    SetNotificationTextEntry("STRING")
+    AddTextComponentString("~b~[Duty System]~s~ " .. message)
+    DrawNotification(false, true)
+end)
