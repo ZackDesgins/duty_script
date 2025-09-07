@@ -17,7 +17,7 @@ Configuration
 Permissions (example)
 ---------------------
 add_ace group.sahp "duty.sahp" allow
-add_principal identifier.steam:110000XXXX group.sahp
+add_principal identifier.discord:Discord Role ID group.sahp
 
 Usage
 -----
